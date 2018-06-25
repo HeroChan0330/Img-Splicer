@@ -7,7 +7,6 @@ $ python BaiduImage.py
     //运行这一段 预处理样本图片  
     ImgPreprocessor.process();  
     //这一段相同的样本只需要执行一次，避免浪费时间  
-
     //运行这一段 生成拼图  
     Bitmap src = (Bitmap)Image.FromFile("12.jpg");  
     Bitmap res = Combiner.Combine(src);  
@@ -30,8 +29,8 @@ $ python BaiduImage.py
 
 ### 潜在Bug:
 Bitmap类的Size有限制，要手动调整Configue.cs里面的参数  
-        public static int SLICE_WIDTH =50;  
-        public static int SLICE_HEIGHT = 50;  
-        public static int SRC_MAX_WIDTH =320;  
-        public static int SRC_MAX_HEIGHT = 180;  
+    public static int SLICE_WIDTH =50;  
+    public static int SLICE_HEIGHT = 50;  
+    public static int SRC_MAX_WIDTH =320;  
+    public static int SRC_MAX_HEIGHT = 180;  
 SRC_MAX_WIDTH SRC_MAX_HEIGHT会自动缩放目标图片至对应scale的图片，SLICE_WIDTH SLICE_HEIGHT为单个贴图Size
