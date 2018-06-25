@@ -1,0 +1,6 @@
+c:\users\子豪\documents\visual studio 2013\Projects\ImgSplice\ImgSplice\bin\Debug\ImgSplice.exe.config
+c:\users\子豪\documents\visual studio 2013\Projects\ImgSplice\ImgSplice\bin\Debug\ImgSplice.exe
+c:\users\子豪\documents\visual studio 2013\Projects\ImgSplice\ImgSplice\bin\Debug\ImgSplice.pdb
+c:\users\子豪\documents\visual studio 2013\Projects\ImgSplice\ImgSplice\obj\Debug\ImgSplice.csprojResolveAssemblyReference.cache
+c:\users\子豪\documents\visual studio 2013\Projects\ImgSplice\ImgSplice\obj\Debug\ImgSplice.exe
+c:\users\子豪\documents\visual studio 2013\Projects\ImgSplice\ImgSplice\obj\Debug\ImgSplice.pdb
